@@ -2,13 +2,20 @@
 
 Novu's API exposes the entire Novu features via a standardized programmatic interface. Please refer to the full [documentation](https://docs.novu.co/docs/overview/introduction) to learn more.
 
-## Installation & Usage
+# 🚨 Deprecation Notice: go-novu SDK
 
-Install the package to your GoLang project.
+## 🔔 Important Announcement
 
-```golang
-go get github.com/novuhq/go-novu
-```
+**Effective Date:** March 4, 2025
+
+The `go-novu` SDK is now **officially deprecated** and will reach end-of-life on **March 4, 2025**.
+
+## ⚠️ What This Means for You
+
+### Immediate Actions
+- Stop using `go-novu` in new projects
+- Begin migration to [novu-go](https://github.com/novuhq/novu-go)
+- Review and update existing Go implementations
 
 ## Getting Started
 
